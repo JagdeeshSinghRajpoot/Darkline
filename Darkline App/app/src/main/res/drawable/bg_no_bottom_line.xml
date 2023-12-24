@@ -1,0 +1,12 @@
+<!-- res/drawable/bg_no_bottom_line.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Add any other drawable layers if needed -->
+
+    <!-- This is the drawable for the bottom line -->
+    <item android:bottom="-2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>
