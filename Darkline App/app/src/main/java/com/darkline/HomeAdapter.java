@@ -15,9 +15,11 @@ import com.bumptech.glide.Glide;
 import com.darkline.model.Posts;
 import java.util.List;
 
+
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.myviewHolder>{
     private List<Posts> dataholder;
     private Context context;
+
     private String imageUrl = "http://192.168.95.153:5000/api/image/";
 
     public HomeAdapter(List<Posts> dataholder,Context context) {
