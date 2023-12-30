@@ -20,7 +20,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.myviewHolder>{
     private List<Posts> dataholder;
     private Context context;
 
-    private String imageUrl = "http://192.168.95.153:5000/api/image/";
+    private String imageUrl = "http://192.168.111.153:5000/api/image/";
 
     public HomeAdapter(List<Posts> dataholder,Context context) {
         this.dataholder = dataholder;

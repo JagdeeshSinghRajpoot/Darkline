@@ -8,8 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
 
-    private static final String BASE_URL = "http://192.168.95.153:5000/";
-    private static  final String BASE_LOGIN_URL = "http://192.168.95.153:5000/";
+    private static final String BASE_URL = "http://192.168.111.153:5000/";
+    private static  final String BASE_LOGIN_URL = "http://192.168.111.153:5000/";
 
     private static Retrofit retrofitWithToken;
     private static Retrofit retrofitWithoutToken;
